@@ -38,8 +38,6 @@
 }
 
 /* Why Web Development section start */
-
-
 #midline {
     background-color: hsl(195, 20%, 96%);
     width: 85%;
@@ -84,5 +82,26 @@
     font-size: 20px;
     padding: 10px 20px;
 }
-
 /* Why Web Development section end */
+
+
+/* Inspiration start */
+#videopart {
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hpvideo{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.youtube {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+/* Inspiration end */
