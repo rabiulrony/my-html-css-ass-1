@@ -5,8 +5,7 @@
     font-style: normal;
   }
 
-/* Header section  */
-
+/* Header section start */
 #backGround {
     background-image: url("./assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -36,6 +35,7 @@
     border: 10px;
     border-radius: 10px;
 }
+/* Header section end */
 
 /* Why Web Development section start */
 #midline {
@@ -105,3 +105,46 @@
     border-radius: 10px;
 }
 /* Inspiration end */
+
+/* Current Target section start */
+#current {
+    width: 85%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.currentlink {
+    display: flex;
+    
+    gap: 30px;
+    margin-top: 70px;
+}
+.hfuture {
+    font-size: 24px;
+}
+
+.bghtml {
+    background-color: #f8e6e2;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+.bgcss {
+    background-color: #d8e4fc;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+.bgjs {
+    background-color: #f7efed;
+    border-radius: 10px;
+    text-align: left;
+    padding: 30px;
+}
+.linkfont {
+    color: black;
+    font-weight: bold;
+}
+/* Current Target section end */
