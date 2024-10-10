@@ -15,15 +15,17 @@
     width: 100%;
     text-align: center;
     padding: 20px 0 20px 0;
+    margin-bottom: 50px;
 }
 
 .future {
     font-size: 50px;
 }
 
-.para {
+.paragraph {
     margin-top: 20px;
     margin-bottom: 32px;
+    font-size: 16px;
 }
 
 .btn {
@@ -34,3 +36,53 @@
     border: 10px;
     border-radius: 10px;
 }
+
+/* Why Web Development section start */
+
+
+#midline {
+    background-color: hsl(195, 20%, 96%);
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.mainmid {
+    margin: 10px;
+}
+
+.midlinediv {
+    text-align: center;
+    padding: 30px;
+}
+
+.coding {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #FFFFFF , hsl(195, 20%, 96%));
+}
+
+.codingg {
+    background-image: linear-gradient(to right, hsl(195, 20%, 96%), #FFFFFF);
+}
+
+.headcode {
+    font-size: 24px;
+    color: #7b7d81;
+}
+
+.code {
+    width: 50%;
+}
+
+.btncode {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* Why Web Development section end */
