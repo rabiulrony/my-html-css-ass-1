@@ -88,10 +88,10 @@
 /* Inspiration start */
 #videopart {
     width: 85%;
-    margin: auto;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+    margin:0 auto;
 }
 
 .hpvideo{
@@ -108,9 +108,8 @@
 
 /* Current Target section start */
 #current {
-    width: 85%;
-    margin: auto;
-    padding: 50px;
+    width: auto;
+    margin: 30px 50px;
     border-radius: 10px;
     text-align: center;
 }
@@ -183,3 +182,17 @@
     font-weight: 700;
 }
 /* need Support end */
+
+#footer {
+    width: auto;
+    margin: 30px 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.hfooter {
+    font-size: 20px;
+    font-weight: 700;
+}
